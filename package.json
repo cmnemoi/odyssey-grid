@@ -12,8 +12,10 @@
     "build": "tsc && vite build",
     "dev": "vite",
     "lint": "prettier --write .",
+    "lint:ci": "prettier --check .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "test:ci": "vitest run"
   },
   "dependencies": {
     "pixi.js": "^8.0.5"
