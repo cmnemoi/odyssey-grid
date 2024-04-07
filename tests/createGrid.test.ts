@@ -29,7 +29,7 @@ describe("Grid creation", () => {
     const createGridUseCase = new CreateGridUseCase(gridRepository);
 
     expect(() => createGridUseCase.execute(10, 10)).toThrowError(
-      "Grid already exists"
+      "Grid already exists",
     );
   });
 });

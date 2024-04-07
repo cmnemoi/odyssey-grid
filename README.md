@@ -20,4 +20,3 @@ yarn dev
 The source code is available under [AGPL-3.0-or-later](./LICENCE) licence.
 
 All Motion Twin assets in `src/core/assets` folder are licenced under [CC BY-NC-SA 4.0](./src/core/assets/LICENCE) licence.
-
