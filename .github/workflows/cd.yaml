@@ -1,0 +1,17 @@
+name: Continous Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          package-name: odyssey-grid
+          bump-minor-pre-major: true
+          default-branch: main
