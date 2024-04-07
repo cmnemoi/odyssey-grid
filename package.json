@@ -11,8 +11,8 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
-    "lint": "prettier --write .",
-    "lint:ci": "prettier --check .",
+    "lint": "prettier --write ./src",
+    "lint:ci": "prettier --check ./src",
     "preview": "vite preview",
     "test": "vitest",
     "test:ci": "vitest run --coverage"
